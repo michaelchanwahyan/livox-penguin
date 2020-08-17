@@ -540,6 +540,11 @@ int main(int argc, const char *argv[]) {
 			
 			int inten = (int)point_packet_list_temp[j].point[k].reflectivity;
 
+            if (!inten)
+                continue;
+            if (x*x + y*y + z*z > 52900)
+                continue;
+
 			if (x < 0)
 			{
 				sbuf[0] = '-';
