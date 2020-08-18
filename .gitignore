@@ -9,6 +9,7 @@ build/sdk_core
 build/sample
 
 third_party/*
+bin/*
 
 #whitelist
 !build/notes.txt
