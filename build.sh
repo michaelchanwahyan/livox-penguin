@@ -7,5 +7,7 @@ cd build
 cmake ..
 make -j8
 cd ..
-mkdir -p bin/sample/lidar_lvx_file/
-mv     build/sample/lidar_lvx_file/lidar_lvx_sample ./bin/sample/lidar_lvx_file/
+mv ./build/liblivox_sdk.so ./bin
+mv ./build/liblvx_device_discovery.so ./bin
+mv ./build/liblvx_device_manager.so ./bin
+mv ./build/liblvx_file.so ./bin
