@@ -33,15 +33,17 @@ target_link_libraries (lvx_device_manager PUBLIC
 
 add_library(lvx_file SHARED lib/lvx_file.cpp)
 target_link_libraries (lvx_file PUBLIC
+  boost_system
   lvx_device_discovery
   lvx_device_manager
   livox_sdk
 )
 
-#add_executable (livox-penguin src/livox_getdata.cpp)
-#target_link_libraries (livox-penguin
-#  lvx_device_discovery
-#  lvx_device_manager
-#  livox_sdk
-#  lvx_file
-#)
+add_executable (livox-penguin src/livox_getdata.cpp)
+target_link_libraries (livox-penguin
+  boost_system
+  lvx_device_discovery
+  lvx_device_manager
+  livox_sdk
+  lvx_file
+)
