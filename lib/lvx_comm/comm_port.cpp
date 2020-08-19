@@ -22,7 +22,7 @@
 // SOFTWARE.
 //
 
-#include "comm/comm_port.h"
+#include "lvx_comm/comm_port.h"
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

@@ -24,10 +24,10 @@
 
 #include "command_channel.h"
 #include <boost/bind.hpp>
-#include "base/logging.h"
-#include "base/network_util.h"
+#include "lvx_base/logging.h"
+#include "lvx_base/network_util.h"
 #include "command_impl.h"
-#include "device_manager.h"
+#include "lvx_device_manager.h"
 #include "livox_def.h"
 
 using boost::atomic_uint16_t;

@@ -26,7 +26,7 @@
 #define LIVOX_HUB_DATA_HANDLER_H_
 
 #include <boost/smart_ptr.hpp>
-#include "base/io_thread.h"
+#include "lvx_base/io_thread.h"
 #include "data_handler.h"
 
 namespace livox {

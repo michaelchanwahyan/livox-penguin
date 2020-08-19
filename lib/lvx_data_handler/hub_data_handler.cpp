@@ -23,8 +23,8 @@
 //
 
 #include "hub_data_handler.h"
-#include <base/logging.h>
-#include "base/network_util.h"
+#include <lvx_base/logging.h>
+#include "lvx_base/network_util.h"
 
 namespace livox {
 

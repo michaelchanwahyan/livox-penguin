@@ -26,8 +26,8 @@
 
 #include "command_handler.h"
 #include "command_impl.h"
-#include "data_handler/data_handler.h"
-#include "device_manager.h"
+#include "lvx_data_handler/data_handler.h"
+#include "lvx_device_manager.h"
 #include "livox_def.h"
 #include "livox_sdk.h"
 

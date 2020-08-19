@@ -25,7 +25,7 @@
 #include "lidar_data_handler.h"
 #include <boost/thread/lock_guard.hpp>
 #include <boost/thread/locks.hpp>
-#include "base/network_util.h"
+#include "lvx_base/network_util.h"
 
 using boost::lock_guard;
 using boost::mutex;

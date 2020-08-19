@@ -29,7 +29,7 @@
 #include <boost/smart_ptr/scoped_array.hpp>
 #include <boost/thread/mutex.hpp>
 #include "data_handler.h"
-#include "device_manager.h"
+#include "lvx_device_manager.h"
 
 namespace livox {
 

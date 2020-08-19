@@ -26,8 +26,8 @@
 #define LIVOX_SDK_PROTOCOL_H_
 
 #include <stdint.h>
-#include "../include/comm/protocol.h"
-#include "../include/third_party/FastCRC/FastCRC.h"
+#include "lvx_comm/protocol.h"
+#include "lvx_third_party/FastCRC/FastCRC.h"
 namespace livox {
 typedef enum { kSdkVerNone, kSdkVer0, kSdkVer1 } SdkVersion;
 

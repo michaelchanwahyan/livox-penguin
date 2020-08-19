@@ -23,7 +23,7 @@
 //
 
 #include "data_handler.h"
-#include <base/logging.h>
+#include <lvx_base/logging.h>
 #include "hub_data_handler.h"
 #include "lidar_data_handler.h"
 

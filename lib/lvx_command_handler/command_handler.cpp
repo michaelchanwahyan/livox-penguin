@@ -25,9 +25,9 @@
 #include "command_handler.h"
 #include <boost/thread/lock_guard.hpp>
 #include <boost/thread/locks.hpp>
-#include "base/logging.h"
+#include "lvx_base/logging.h"
 #include "command_impl.h"
-#include "device_manager.h"
+#include "lvx_device_manager.h"
 #include "hub_command_handler.h"
 #include "lidar_command_handler.h"
 
