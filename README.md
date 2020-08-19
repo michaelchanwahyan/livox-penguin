@@ -28,7 +28,9 @@ After that build the Livox LiDAR template binary executable
 bash build.sh
 ```
 
-*Software and cathedrals are much the same â first we build them, then we
-pray.* ~ Sam Redwine [Proceedings of the 4th International Software Process
-Workshop, Moretonhampstead, Devon, U.K., 11â13 May 1988, IEEE Computer
+*Software and cathedrals are much the same -- first we build them, then we
+pray.*
+
+~ Sam Redwine [Proceedings of the 4th International Software Process
+Workshop, Moretonhampstead, Devon, U.K., 11--13 May 1988, IEEE Computer
 Society]
