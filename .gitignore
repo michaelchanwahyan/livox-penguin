@@ -5,13 +5,6 @@ build/*.txt
 build/Makefile
 build/*.cmake
 build/CMakeFiles
-build/sdk_core
-build/sample
 
-third_party/*
 bin/*
-
-#whitelist
-!build/notes.txt
-
 
