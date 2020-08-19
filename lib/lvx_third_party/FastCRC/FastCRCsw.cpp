@@ -34,7 +34,7 @@
 // modify from FastCRC library @ 2018/11/20
 //
 
-#include "../include/third_party/FastCRC/FastCRC.h"
+#include "lib/lvx_third_party/FastCRC/FastCRC.h"
 #include "FastCRC_tables.hpp"
 
 
